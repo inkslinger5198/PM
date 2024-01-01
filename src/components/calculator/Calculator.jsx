@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import './calculator.css';
+import React, { useState } from "react";
+import "./calculator.css";
 
 const Calculator = () => {
-  const [averageMeetings, setAverageMeetings] = useState('');
-  const [averageDealSize, setAverageDealSize] = useState('');
-  const [closingRate, setClosingRate] = useState('');
+  const [averageMeetings, setAverageMeetings] = useState("");
+  const [averageDealSize, setAverageDealSize] = useState("");
+  const [closingRate, setClosingRate] = useState("");
   const [result, setResult] = useState(null);
 
   const calculate = () => {
@@ -21,7 +21,7 @@ const Calculator = () => {
   };
 
   return (
-    <div >
+    <div>
       <form>
         <label htmlFor="opportunities">Average Monthly Meetings</label>
         <input
@@ -30,7 +30,9 @@ const Calculator = () => {
           value={averageMeetings}
           onChange={(e) => setAverageMeetings(e.target.value)}
           required
-        /><br/><br/>
+        />
+        <br />
+        <br />
 
         <label htmlFor="deal-size">Average Deal Size (€)</label>
         <input
@@ -39,7 +41,9 @@ const Calculator = () => {
           value={averageDealSize}
           onChange={(e) => setAverageDealSize(e.target.value)}
           required
-        /><br/><br/>
+        />
+        <br />
+        <br />
 
         <label htmlFor="win-rate">Closing Rate %</label>
         <input
@@ -48,20 +52,19 @@ const Calculator = () => {
           value={closingRate}
           onChange={(e) => setClosingRate(e.target.value)}
           required
-        /><br/><br/>
+        />
+        <br />
+        <br />
 
-        <button type="button" onClick={calculate}>Calculate</button>
-        {result !== null && (
+        <button type="button" onClick={calculate}>
+          Calculate
+        </button>
+
         <div>
-          <h2>Estimated Revenue:</h2>
-          <p>{result} €</p>
+          <h3>Estimated Revenue:</h3>
+          <p>{result !== null ? `${result} €` : "Enter values to generate revenue"}</p>
         </div>
-      )}
       </form>
-
-      
-
-
     </div>
   );
 };
