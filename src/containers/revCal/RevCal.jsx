@@ -10,7 +10,7 @@ const RevCal = () => {
         <p>
           Enter your average deal size and winning rate, then match it with our
           average monthly meeting figures.
-          <br />
+          <br /> <br />
           Fancy a broader view? Try calculating with annual
           figures😉
         </p>
