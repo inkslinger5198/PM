@@ -60,7 +60,7 @@ const Calculator = () => {
           Calculate
         </button>
 
-        <div>
+        <div className="Result">
           <h3>Estimated Revenue:</h3>
           <p>{result !== null ? `${result} €` : "Enter values to generate revenue"}</p>
         </div>

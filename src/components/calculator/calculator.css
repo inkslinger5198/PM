@@ -22,6 +22,8 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 17px;
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold;
   }
   
   button {
@@ -38,7 +40,7 @@
     background-color: var(--color-light);
   }
   
-  h3 {
+  .Result h3 {
     margin-top: 20px;
     margin-bottom: 5px;
     color: var(--color-dark);
@@ -53,5 +55,6 @@
   p
   {
     color: var(--color-light);
+    font-size: 0.85rem;
   }
   
