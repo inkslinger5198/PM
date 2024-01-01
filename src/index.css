@@ -3,10 +3,11 @@
 :root {
   --font-family: 'montserrat', sans-serif;
 
-   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+   --gradient-text: linear-gradient(89deg, rgba(5,59,80,1) 5%, rgba(2,125,172,1) 100%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
-  --color-dark: #146C94;
-  --color-light: #19A7CE;
-  --color-lighter: #89CFF3;
+  --color-dark: #053B50;
+  --color-light: #176B87;
+  --color-lighter: #64CCC5;
+  --color-lightest: #95aeb5;
 }
