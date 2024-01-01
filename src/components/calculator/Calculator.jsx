@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './calculator.css';
 
 const Calculator = () => {
   const [averageMeetings, setAverageMeetings] = useState('');
@@ -20,7 +21,7 @@ const Calculator = () => {
   };
 
   return (
-    <div>
+    <div >
       <form>
         <label htmlFor="opportunities">Average Monthly Meetings</label>
         <input
@@ -50,14 +51,17 @@ const Calculator = () => {
         /><br/><br/>
 
         <button type="button" onClick={calculate}>Calculate</button>
-      </form>
-
-      {result !== null && (
+        {result !== null && (
         <div>
-          <h2>Result:</h2>
+          <h2>Estimated Revenue:</h2>
           <p>{result} €</p>
         </div>
       )}
+      </form>
+
+      
+
+
     </div>
   );
 };
