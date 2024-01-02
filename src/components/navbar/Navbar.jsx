@@ -1,35 +1,30 @@
 import React from "react";
 import "./navbar.css";
 import Logo from "../../assets/3.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 const Menu = () => (
-  <>
-    <p>
-      <Link to="nav" smooth={true} duration={100}>
-        Home
-      </Link>
-    </p>
-    <p>
-      <Link to="services" smooth={true} duration={100}>
-        Services
-      </Link>
-    </p>
-    <p>
-      <Link to="testimonial" smooth={true} duration={100}>
-        Wins
-      </Link>
-    </p>
-    <p>
-      <Link to="contact" smooth={true} duration={100}>
-        Contact
-      </Link>
-    </p>
-    <p>
-      <Link to="about" smooth={true} duration={100}>
-        About
-      </Link>
-    </p>
-  </>
+  <nav>
+    <Link to="nav" smooth={true} duration={100}>
+      Home
+    </Link>
+
+    <Link to="services" smooth={true} duration={100}>
+      Services
+    </Link>
+
+    <Link to="wins" smooth={true} duration={100}>
+      Wins
+    </Link>
+
+    <Link to="contact" smooth={true} duration={100}>
+      Contact
+    </Link>
+    <Link to="about" smooth={true} duration={100}>
+      About
+    </Link>
+
+    <span></span>
+  </nav>
 );
 
 const Navbar = () => {
@@ -45,6 +40,7 @@ const Navbar = () => {
 
       <div className="navbar-button">
         <a
+          className=""
           href="https://app.cal.com/pravitbh/progressor-media"
           target="_blank"
           rel="noopener noreferrer"
