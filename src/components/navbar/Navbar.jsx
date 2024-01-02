@@ -29,7 +29,6 @@ const Menu = () => (
 const Navbar = () => {
   return (
     <div className="navbar" id="nav">
-      <a href="/">
       <div className="navbar-logo">
         
           <div className="navbar-circle">PM</div>
@@ -38,7 +37,6 @@ const Navbar = () => {
           </div>
         
       </div>
-      </a>
 
       <div className="navbar-links">
         <Menu />
