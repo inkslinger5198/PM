@@ -49,7 +49,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn-1">Get Started</button>
+          <button className="btn-1">Book A Call</button>
         </a>
       </div>
     </div>
