@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Logo from "../../assets/3.png";
+import Logo from "../../assets/P.png";
 import { Link } from "react-scroll";
 const Menu = () => (
   <nav>
