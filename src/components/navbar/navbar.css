@@ -2,16 +2,49 @@
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     font-family: var(--font-family);
-    padding: 0rem 2rem 0rem 1.5rem;
+    padding: 1.5rem 2.5rem 0rem 2.5rem;
+    justify-content: center;
+    gap: 13rem;
+}
+.navbar-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    cursor: pointer; 
+    flex: 0.1;
+}
+/*.navbar-logo img
+{
+    width: 85px;
+    height: 85px;
+    border: 5px solid var(--color-dark);
+    border-radius: 50px;
+    padding: 9px;
+}*/
+
+.navbar-circle
+{
+    background: black;
+    color: #eeeeee;
+    padding: 1.2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50%;
+    font-family: var(--font-family);
+    margin-right: 0.75rem;
 }
 
-.navbar-logo img
+.navbar-title h1
 {
-    width: 125px;
-    height: 125px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--color-dark);
+    font-family: var(--font-family);
+    margin-right: 0.75rem;
+
 }
 
 .navbar-links
@@ -27,21 +60,21 @@ nav
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 50px;
     background: #eeeeee;
-    border-radius: 50px;  
-    border: 0.2rem solid var(--color-dark);
+    border-radius: 50px; 
+    padding: 0.25rem; 
+    border: 5px solid var(--color-dark);
 }
 
 nav a
 {
     position: relative;
     display: inline-block;
-    font-size: 1em;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--color-dark);
     cursor: pointer;
-    padding: 0 30px;
+    padding: 0.8rem 1.5rem;
 
     z-index: 1;
 }
@@ -59,7 +92,7 @@ nav span{
     width: 20%;
     height: 100%;
     background: var(--color-dark);
-    border-radius: 50px;
+    border-radius: 25px;
     color: #eeeeee;
     z-index: 0;
     transition: all 0.5s ease-in-out;
@@ -71,24 +104,25 @@ nav a:nth-child(1):hover~span{
 }
 
 nav a:nth-child(2):hover~span{
-    left: 115px;
+    left: 105px;
     display: block;
 }
 nav a:nth-child(3):hover~span{
-    left: 230px;
+    left: 210px;
     display: block;
 }
 nav a:nth-child(4):hover~span{
-    left: 340px;
+    left: 313px;
     display: block;
 }
 nav a:nth-child(5):hover~span{
-    left: 460px;
+    left: 421px;
     display: block;
 }
 .navbar-button button
 {
     padding: 1rem 2rem;
     font-size: 1rem;
-    
+    border: 5px solid var(--color-dark);
+    border-radius: 50px;
 }

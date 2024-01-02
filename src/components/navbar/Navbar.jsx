@@ -1,6 +1,5 @@
 import React from "react";
 import "./navbar.css";
-import Logo from "../../assets/P.png";
 import { Link } from "react-scroll";
 const Menu = () => (
   <nav>
@@ -30,9 +29,16 @@ const Menu = () => (
 const Navbar = () => {
   return (
     <div className="navbar" id="nav">
+      <a href="/">
       <div className="navbar-logo">
-        <img src={Logo} alt="logo" />
+        
+          <div className="navbar-circle">PM</div>
+          <div className="navbar-title">
+            <h1>Progressor Media</h1>
+          </div>
+        
       </div>
+      </a>
 
       <div className="navbar-links">
         <Menu />
