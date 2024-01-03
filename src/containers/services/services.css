@@ -18,7 +18,6 @@
   font-size: 3rem;
   font-weight: bold;
   margin: 0;
-  text-transform: upperCase;
   margin-bottom: 1rem;
   color: var(--color-dark);
 }

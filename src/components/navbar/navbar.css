@@ -112,7 +112,7 @@ nav a:nth-child(1):hover~span{
 }
 
 nav a:nth-child(2):hover~span{
-    left: 105px;
+    left: 107.5px;
     display: block;
 }
 nav a:nth-child(3):hover~span{
@@ -120,7 +120,7 @@ nav a:nth-child(3):hover~span{
     display: block;
 }
 nav a:nth-child(4):hover~span{
-    left: 313px;
+    left: 311.5px;
     display: block;
 }
 nav a:nth-child(5):hover~span{
