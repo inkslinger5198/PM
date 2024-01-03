@@ -2,8 +2,8 @@ import React from "react";
 import "./header.css";
 const Header = () => {
   return (
-    <div className="header ">
-      <div className="header-title">
+    <div className="header " id="home">
+      <div className="header-title" >
         <h1>
           How IT Firms can add 2-5 clients per month using our AI-Based
           SmartLink Approach

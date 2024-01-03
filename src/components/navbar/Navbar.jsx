@@ -3,22 +3,22 @@ import "./navbar.css";
 import { Link } from "react-scroll";
 const Menu = () => (
   <nav>
-    <Link to="nav" smooth={true} duration={100}>
+    <Link to="home" smooth={true} duration={100} offset={-90}>
       Home
     </Link>
 
-    <Link to="services" smooth={true} duration={100}>
+    <Link to="services" smooth={true} duration={100} offset={-80}>
       Services
     </Link>
 
-    <Link to="wins" smooth={true} duration={100}>
+    <Link to="wins" smooth={true} duration={100} offset={-80}>
       Wins
     </Link>
 
-    <Link to="contact" smooth={true} duration={100}>
+    <Link to="contact" smooth={true} duration={100} offset={-100}>
       Contact
     </Link>
-    <Link to="about" smooth={true} duration={100}>
+    <Link to="about" smooth={true} duration={100} offset={-90}>
       About
     </Link>
 
