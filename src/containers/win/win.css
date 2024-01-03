@@ -1,0 +1,54 @@
+.wins {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+.wins-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.wins-heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5rem;
+  color: var(--color-dark);
+}
+
+.awards {
+  color: var(--color-dark);
+  font-size: 3.25rem;
+}
+
+.wins-gallery
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.wins-gallery img
+{
+    height: 200px;
+    border-radius: 25px;
+    border: 3px solid var(--color-dark);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    margin: 0.5rem;
+}
+
+.book-call button
+{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: 5px solid var(--color-dark);
+    border-radius: 50px;
+    margin-top: 5rem;
+}

@@ -21,14 +21,14 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #4e5e8059;
+    background: #5a5a5b59;
     border-radius: 12px;
     height: 5px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #4e5e80;
+    background: #000000;
   }
   
   /* Track when the content is being scrolled */

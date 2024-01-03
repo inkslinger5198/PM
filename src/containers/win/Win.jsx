@@ -1,12 +1,48 @@
-import React from 'react'
-import './win.css'
+import React from "react";
+import "./win.css";
+import { FaTrophy } from "react-icons/fa6";
+import a1 from "../../assets/WINS/1.jpg";
+import a2 from "../../assets/WINS/2.jpg";
+import a3 from "../../assets/WINS/3.jpg";
+import a4 from "../../assets/WINS/4.jpg";
+import a5 from "../../assets/WINS/5.jpg";
 
 const Win = () => {
   return (
-    <div>
-      Recent Wins
-    </div>
-  )
-}
+    <div className="wins section__padding" id="win">
+      <div className="wins-heading">
+        <h1>Recent Wins</h1>
+        <FaTrophy className="awards" />
+      </div>
 
-export default Win
+      <div className="wins-gallery">
+        <div className="wins-gallery-longspan">
+          <img src={a2} alt="wins" />
+          <img src={a3} alt="wins" />
+        </div>
+
+        <div className="wins-gallery-shortspan">
+          <img src={a4} alt="wins" />
+          <img src={a5} alt="wins" />
+        </div>
+
+        <div className="wins-gallery-longspan">
+          <img src={a1} alt="wins" />
+        </div>
+      </div>
+
+      <div className="book-call">
+        <a
+          className=""
+          href="https://app.cal.com/pravitbh/progressor-media"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>Book A Call</button>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Win;
