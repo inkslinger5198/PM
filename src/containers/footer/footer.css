@@ -1,0 +1,114 @@
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    color: #eeeeee;
+    background: var(--color-dark);
+    padding: 6rem 8rem;
+    
+}
+
+.footer-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    cursor: pointer; 
+    flex: 0.3;
+}
+
+.footer-circle
+{
+    background: #eeeeee;
+    color: var(--color-dark);
+    padding: 1.2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50%;
+    font-family: var(--font-family);
+    margin-right: 0.75rem;
+}
+
+.footer-title h1
+{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #eeeeee;
+    font-family: var(--font-family);
+    margin-right: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.footer-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 0.65;
+}
+
+.socials
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 0.667;
+    gap: 0rem;
+}
+
+.founder-socials, .PM-socials, .navigation 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.founder-socials h1 ,.PM-socials h1, .navigation h1
+{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #eeeeee;
+    font-family: var(--font-family);
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+}
+
+.flex-link
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0rem;
+}
+
+.flex-link h1
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #eeeeee;
+    font-family: var(--font-family);
+    margin-right: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.1rem;
+}
+
+.navigation 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0.2;
+}
+
